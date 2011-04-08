@@ -1,0 +1,17 @@
+[user]
+	name = Dan Lantner
+	email = dlantner@texeltek.com
+[color]
+        diff = auto
+        status = auto
+        branch = auto
+[alias]
+        st = status
+        ci = commit
+        br = branch
+        co = checkout
+        di = diff
+        serve = !git daemon --reuseaddr --verbose --base-path=. --export-all ./.git
+
+[push]
+	default = tracking
